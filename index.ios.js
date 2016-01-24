@@ -106,13 +106,13 @@ var styles = StyleSheet.create({
     flex: 1,
   },
   titleView:{
-    backgroundColor: '#48afdb',
+    backgroundColor: '#729f98',
     paddingTop: 30,
     paddingBottom: 10,
     flexDirection: 'row'
   },
   titleText:{
-    color: '#fff',
+    color: '#f0eceb',
     textAlign: 'center',
     fontWeight: 'bold',
     flex: 1,
@@ -127,14 +127,14 @@ var styles = StyleSheet.create({
     height: 36,
     flex: 2,
     flexDirection: 'row',
-    backgroundColor: '#48afdb',
+    backgroundColor: '#729f98',
     justifyContent: 'center',
-    color: '#FFFFFF',
+    color: '#f0eceb',
     borderRadius: 4,
   },
   btnText: {
     fontSize: 18,
-    color: '#fff',
+    color: '#f0eceb',
     marginTop: 6,
   },
   input: {
@@ -144,9 +144,9 @@ var styles = StyleSheet.create({
     flex: 4,
     fontSize: 18,
     borderWidth: 1,
-    borderColor: '#48afdb',
+    borderColor: '#729f98',
     borderRadius: 4,
-    color: '#48BBEC'
+    color: '#283018'
   },
   row: {
     flexDirection: 'row',
@@ -155,10 +155,11 @@ var styles = StyleSheet.create({
   },
   separator: {
     height: 1,
-    backgroundColor: '#CCCCCC',
+    backgroundColor: '#3b3a36',
   },
   todoText: {
     flex: 1,
+    color: '#3b3a36',
   }
 });
 
